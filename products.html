@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Товары - Tapki-shop</title>
+	 <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+      <div class="header__top">
+        <div class="header__top-inner">
+          <nav>
+            <ul class="menu">
+              <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Бренды</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Доставка и оплата</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Политика возврата</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="toggle-mnu hidden-lg"><span></span></a>
+          <div class="enter">
+            <a href="#">Вход</a>
+            <a href="#">Регистрация</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__middle">
+        <div class="header__middle-item">
+          <div class="header__phone">
+            <div class="round">
+              <svg class="icon icon-phone">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#phone"></use>
+              </svg>
+            </div>
+            <div class="header__middle-text">
+              <div>8 (978) 123-45-67</div>
+              <a href="#recall" class="call-button">Заказать звонок</a>
+            </div>
+          </div>
+          
+          <a href="#whrite" class="write-us">
+            <div class="round">
+              <svg class="icon icon-pen">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#pen"></use>
+              </svg>
+            </div>
+            <div class="header__middle-text">Написать нам</div>
+          </a>
+        </div>
+
+        <div class="header__middle-item">
+          <div class="header__logo-wrap">
+            <picture>
+              <source srcset="img/icons-svg/logo.svg">
+                <img src="img/icons/logo.png" alt="alt" title="title">
+            </picture>
+          </div>
+        </div>
+
+        <div class="header__middle-item">
+          <div class="compare">
+            <svg class="icon icon-compare">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+            </svg>
+            <a href="#">Сравнить <span class="compare-count">(0)</span></a>
+          </div>
+          
+          <div class="favorites">
+            <svg class="icon icon-heart">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+            </svg>
+            <a href="#">В избранное <span class="favorites-count">(0)</span></a>
+          </div>
+        
+          <div class="header__cart">
+            <div class="round">
+              <svg class="icon icon-cart">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart"></use>
+              </svg>
+            </div>
+            <div class="header__middle-text">
+              <a href="#">Ваша корзина</a>
+              <span>Товаров: <span class="cart-count">0</span></span>
+            </div>
+          
+          </div>
+        </div>
+        
+
+      </div>
+
+      <div class="products-menu">
+        <div class="products-menu__inner">
+          <nav>
+            <ul class="menu">
+              <li class="menu__item"><a href="#" class="menu__link">КРОССОВКИ</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">кеды</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Аксессуары</a></li>
+              <li class="menu__item sale"><a href="#" class="menu__link">РАСПРОДАЖА</a></li>
+            </ul>
+          </nav>
+          <div class="product-menu__label">+ каталог</div>
+          <form action="#" class="search-form" method="GET">
+            <input type="text" class="search-form__input" name="name" placeholder="Поиск товаров на сайте" title="введите ваше имя"/>
+            <button type="submit" class="search-form__submit"></button>
+          </form>
+        </div>
+      </div>
+    </header>
+    
+    <div class="products-visual">
+    	<div class="products-visual__inner">
+    		<div class="products-visual__left">
+    			<img src="img/snicker-big.png" alt="alt">
+    		</div>
+    		<div class="products-visual__right">
+    			<div class="slide-slogan">
+    				<div class="slide-slogan__top">БОЛЕЕ</div>
+    				<div class="slide-slogan__middle">5000</div>
+    				<div class="slide-slogan__bottom">пар обуви!</div>
+    			</div>
+    		</div>
+    	</div>
+    </div><!-- product-visual -->
+
+    <div class="product-catalog">
+    	<aside class="product-catalog__sidebar">
+    		<ul class="acordeon-list">
+    			<li class="product-catalog__sidebar-item acordeon-item acordeon-item-with-sublist acordeon-item-active">
+            <a href="#" class="acordeon-link product-catalog__sidebar-chapter-link">
+            Вид обуви:
+            </a>
+            <ul class="product-catalog__sublist acordeon-sublist">
+              <li class="acordeon-subitem">
+                <label>
+                 <input type="checkbox" checked>
+                 <span class="check-custom"></span>
+                 <span class="check-text">Кроссовки</span>
+               </label>
+               <label>
+                 <input type="checkbox">
+                 <span class="check-custom"></span>
+                 <span class="check-text">Кеды</span>
+               </label>  
+               <label>
+                 <input type="checkbox">
+                 <span class="check-custom"></span>
+                 <span class="check-text">Аксессуары</span>
+               </label> 
+
+               <label>
+                 <input type="checkbox">
+                 <span class="check-custom"></span>
+                 <span class="check-text">Sale</span>
+               </label>     
+              </li>
+                
+              </ul>
+            </li>
+
+            <li class="acordeon-item acordeon-item-with-sublist product-catalog__sidebar-item acordeon-item-active">
+              <a href="#" class="acordeon-link product-catalog__sidebar-chapter-link">Цена</a>
+              <ul class="product-catalog__sublist acordeon-sublist">
+                <li class="acordeon-subitem">
+                  <div class="price-slider"></div>
+                  <div class="price-values">
+                    <input  class="price-values__min" type="text">
+                    <span>-</span>
+                    <input  class="price-values__max" type="text">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+                  </div>
+               </li>            
+              </ul>
+
+            </li>
+
+            <li class="acordeon-item acordeon-item-with-sublist product-catalog__sidebar-item acordeon-item-active">
+              <a href="#" class="acordeon-link product-catalog__sidebar-chapter-link">Бренды:</a>
+              <ul class="product-catalog__sublist acordeon-sublist">
+                <li class="acordeon-subitem">
+                  <label>
+                   <input type="checkbox">
+                   <span class="check-custom"></span>
+                   <span class="check-text">Reebok</span>
+                 </label>
+                 <label>
+                   <input type="checkbox">
+                   <span class="check-custom"></span>
+                   <span class="check-text">Adidas</span>
+                 </label> 
+                 <label>
+                   <input type="checkbox">
+                   <span class="check-custom"></span>
+                   <span class="check-text">Adidas</span>
+                 </label>
+                 <label>
+                   <input type="checkbox" checked>
+                   <span class="check-custom"></span>
+                   <span class="check-text">Nike</span>
+                 </label>
+                 <label>
+                   <input type="checkbox">
+                   <span class="check-custom"></span>
+                   <span class="check-text">Asics</span>
+                 </label>
+                 <label>
+                   <input type="checkbox">
+                   <span class="check-custom"></span>
+                   <span class="check-text">New Balance</span>
+                 </label> 
+               </li>            
+              </ul>
+
+    				</li>
+
+            <li class="acordeon-item acordeon-item-with-sublist product-catalog__sidebar-item acordeon-item-active">
+              <a href="#" class="acordeon-link product-catalog__sidebar-chapter-link">Размер:</a>
+              <ul class="product-catalog__sublist acordeon-sublist">
+                <li class="acordeon-subitem">
+                  
+                    <div class="filter-sizes">
+                      <div class="filter__size">35</div>
+                      <div class="filter__size filter__size--active">36</div>
+                      <div class="filter__size">37</div>
+                      <div class="filter__size">38</div>
+                    </div>
+                    <div class="filter-sizes">
+                      <div class="filter__size">39</div>
+                      <div class="filter__size">40</div>
+                      <div class="filter__size">41</div>
+                      <div class="filter__size">42</div>
+                    </div>
+                    <div class="filter-sizes">
+                      <div class="filter__size">43</div>
+                      <div class="filter__size">44</div>
+                      <div class="filter__size">45</div>
+                      <div class="filter__size">46</div>
+                    </div>
+                  
+                </li>            
+              </ul>
+
+            </li>
+
+            <li class="acordeon-item acordeon-item-with-sublist product-catalog__sidebar-item acordeon-item-active">
+              <a href="#" class="acordeon-link product-catalog__sidebar-chapter-link">Цвет:</a>
+              <ul class="product-catalog__sublist acordeon-sublist">
+                <li class="acordeon-subitem">
+                  
+                    <div class="filter-colors">
+                      <div class="filter__color-wrap"><span class="black"></span></div>
+                      <div class="filter__color-wrap filter__color-wrap--active"><span class="gray"></span></div>
+                      <div class="filter__color-wrap"><span class="light-gray"></span></div>
+                      <div class="filter__color-wrap"><span class="blue"></span></div>
+                      <div class="filter__color-wrap"><span class="red"></span></div>
+                      <div class="filter__color-wrap"><span class="green"></span></div>
+                      <div class="filter__color-wrap"><span class="yellow"></span></div>
+                      <div class="filter__color-wrap"><span class="orange"></span></div>
+                    </div>
+
+                    <div class="filter-colors">
+                      <div class="filter__color-wrap"><span class="khaki"></span></div>
+                      <div class="filter__color-wrap"><span class="light-blue"></span></div>
+                      <div class="filter__color-wrap"><span class="swamp"></span></div>
+                      <div class="filter__color-wrap"><span class="medium-gray"></span></div>
+                      <div class="filter__color-wrap"><span class="medium-green"></span></div>
+                      <div class="filter__color-wrap"><span class="crimson"></span></div>
+                      <div class="filter__color-wrap"><span class="sea"></span></div>
+                      <div class="filter__color-wrap"><span class="turquoise"></span></div>
+                    </div>
+
+               </li>            
+              </ul>
+
+            </li>
+
+          </ul>
+          <button class="filter-clear" title="Нажмите, чтобы сбросить все фильтры">Очистить фильтры <img src="img/icons/del.png" alt="alt"></button>
+    	</aside>
+    	<div class="product-content">
+    		<div class="breadcrumbs">
+          <ul>
+              <li><a href="#">Главная </a></li>
+              <li><a href="#">Женщинам </a></li>
+              <li><a href="#" class="breadcrumbs-active">Кеды</a></li>
+            </ul>  
+        </div>
+
+        <div class="product-content__navigation">
+          <div class="product-content__displayed">
+            <span>Показано: </span>
+            <span class="product-content__positions">23</span>
+            <span> позиции</span>
+          </div>
+          <div class="product-content__right">
+            <div class="product-content__sort">
+              <span>Сортировать:</span>
+              <ul class="sort-list">
+                <li>Новинки</li>
+                <li>По цене (убыванию)</li>
+                <li>По цене (возрастание)</li>
+                <li>По виду обуви</li>
+                <li>По рейтингу</li>
+              </ul>
+            </div>
+            <div class="product-content__pager">
+              <span class="pager-button left">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+              </span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>...</span>
+              <span>7</span>
+              <span class="pager-button left">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+          
+        </div><!-- product-content__navigation -->
+
+        <div class="select-results">
+          <span>Вы выбрали: </span>
+          <span class="select-results__item">Кроссовки<img src="img/icons/del.png" class="select-results__item-close" alt="alt"></span>
+          <span class="select-results__item">Nike<img src="img/icons/del.png" class="select-results__item-close" alt="alt"></span>
+          <span class="select-results__item select-results__item-color">
+            <span class="filter__color-wrap"><span class="gray"></span></span> 
+            <img src="img/icons/del.png" class="select-results__item-close" alt="alt">
+          </span>
+        </div><!-- select-result -->
+
+        <div class="product-items">
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-01.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+            <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+            <div class="color-gamma">
+              <img src="img/gamma-colors.jpg" alt="alt">
+              <span>12 цветов</span>
+            </div>
+            <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+            <div class="prod-rating">
+              <div class="prod-rating__stars">
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+              </div><!-- rating-stars -->
+
+              <div class="rating-count">
+                <span class="rating-abs">3.0</span>
+                <span class="rating-total">(23)</span>
+              </div>
+            </div><!-- prod-rating -->
+
+            <div class="prod-to-cart">
+              <a href="#" class="to-cart">
+                <svg class="icon icon-cart_small">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                </svg>
+                <span>В корзину</span>
+              </a>
+              <div class="to-cart__links">
+                <div class="compare">
+                  <svg class="icon icon-compare">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                  </svg>
+                  <a href="#">Сравнить</a>
+                </div>
+                <div class="to-cart-line"></div>
+                <div class="favorites">
+                  <svg class="icon icon-heart">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                  </svg>
+                  <a href="#">В избранное</a>
+                </div>
+              </div>
+            </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-02.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+            <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+            <div class="color-gamma">
+              <img src="img/gamma-colors.jpg" alt="alt">
+              <span>12 цветов</span>
+            </div>
+            <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+            <div class="prod-rating">
+              <div class="prod-rating__stars">
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+              </div><!-- rating-stars -->
+
+              <div class="rating-count">
+                <span class="rating-abs">3.0</span>
+                <span class="rating-total">(23)</span>
+              </div>
+            </div><!-- prod-rating -->
+
+            <div class="prod-to-cart">
+              <a href="#" class="to-cart">
+                <svg class="icon icon-cart_small">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                </svg>
+                <span>В корзину</span>
+              </a>
+              <div class="to-cart__links">
+                <div class="compare">
+                  <svg class="icon icon-compare">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                  </svg>
+                  <a href="#">Сравнить</a>
+                </div>
+                <div class="to-cart-line"></div>
+                <div class="favorites">
+                  <svg class="icon icon-heart">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                  </svg>
+                  <a href="#">В избранное</a>
+                </div>
+              </div>
+            </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-03.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+              <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+              <div class="color-gamma">
+                <img src="img/gamma-colors.jpg" alt="alt">
+                <span>12 цветов</span>
+              </div>
+              <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+              <div class="prod-rating">
+                <div class="prod-rating__stars">
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                </div><!-- rating-stars -->
+
+                <div class="rating-count">
+                  <span class="rating-abs">3.0</span>
+                  <span class="rating-total">(23)</span>
+                </div>
+              </div><!-- prod-rating -->
+
+              <div class="prod-to-cart">
+                <a href="#" class="to-cart">
+                  <svg class="icon icon-cart_small">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                  </svg>
+                  <span>В корзину</span>
+                </a>
+                <div class="to-cart__links">
+                  <div class="compare">
+                    <svg class="icon icon-compare">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                    </svg>
+                    <a href="#">Сравнить</a>
+                  </div>
+                  <div class="to-cart-line"></div>
+                  <div class="favorites">
+                    <svg class="icon icon-heart">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                    </svg>
+                    <a href="#">В избранное</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-01.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+              <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+              <div class="color-gamma">
+                <img src="img/gamma-colors.jpg" alt="alt">
+                <span>12 цветов</span>
+              </div>
+              <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+              <div class="prod-rating">
+                <div class="prod-rating__stars">
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                </div><!-- rating-stars -->
+
+                <div class="rating-count">
+                  <span class="rating-abs">3.0</span>
+                  <span class="rating-total">(23)</span>
+                </div>
+              </div><!-- prod-rating -->
+
+              <div class="prod-to-cart">
+                <a href="#" class="to-cart">
+                  <svg class="icon icon-cart_small">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                  </svg>
+                  <span>В корзину</span>
+                </a>
+                <div class="to-cart__links">
+                  <div class="compare">
+                    <svg class="icon icon-compare">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                    </svg>
+                    <a href="#">Сравнить</a>
+                  </div>
+                  <div class="to-cart-line"></div>
+                  <div class="favorites">
+                    <svg class="icon icon-heart">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                    </svg>
+                    <a href="#">В избранное</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-01.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+            <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+            <div class="color-gamma">
+              <img src="img/gamma-colors.jpg" alt="alt">
+              <span>12 цветов</span>
+            </div>
+            <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+            <div class="prod-rating">
+              <div class="prod-rating__stars">
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+              </div><!-- rating-stars -->
+
+              <div class="rating-count">
+                <span class="rating-abs">3.0</span>
+                <span class="rating-total">(23)</span>
+              </div>
+            </div><!-- prod-rating -->
+
+            <div class="prod-to-cart">
+              <a href="#" class="to-cart">
+                <svg class="icon icon-cart_small">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                </svg>
+                <span>В корзину</span>
+              </a>
+              <div class="to-cart__links">
+                <div class="compare">
+                  <svg class="icon icon-compare">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                  </svg>
+                  <a href="#">Сравнить</a>
+                </div>
+                <div class="to-cart-line"></div>
+                <div class="favorites">
+                  <svg class="icon icon-heart">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                  </svg>
+                  <a href="#">В избранное</a>
+                </div>
+              </div>
+            </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-02.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+            <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+            <div class="color-gamma">
+              <img src="img/gamma-colors.jpg" alt="alt">
+              <span>12 цветов</span>
+            </div>
+            <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+            <div class="prod-rating">
+              <div class="prod-rating__stars">
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+              </div><!-- rating-stars -->
+
+              <div class="rating-count">
+                <span class="rating-abs">3.0</span>
+                <span class="rating-total">(23)</span>
+              </div>
+            </div><!-- prod-rating -->
+
+            <div class="prod-to-cart">
+              <a href="#" class="to-cart">
+                <svg class="icon icon-cart_small">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                </svg>
+                <span>В корзину</span>
+              </a>
+              <div class="to-cart__links">
+                <div class="compare">
+                  <svg class="icon icon-compare">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                  </svg>
+                  <a href="#">Сравнить</a>
+                </div>
+                <div class="to-cart-line"></div>
+                <div class="favorites">
+                  <svg class="icon icon-heart">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                  </svg>
+                  <a href="#">В избранное</a>
+                </div>
+              </div>
+            </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-03.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+              <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+              <div class="color-gamma">
+                <img src="img/gamma-colors.jpg" alt="alt">
+                <span>12 цветов</span>
+              </div>
+              <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+              <div class="prod-rating">
+                <div class="prod-rating__stars">
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                </div><!-- rating-stars -->
+
+                <div class="rating-count">
+                  <span class="rating-abs">3.0</span>
+                  <span class="rating-total">(23)</span>
+                </div>
+              </div><!-- prod-rating -->
+
+              <div class="prod-to-cart">
+                <a href="#" class="to-cart">
+                  <svg class="icon icon-cart_small">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                  </svg>
+                  <span>В корзину</span>
+                </a>
+                <div class="to-cart__links">
+                  <div class="compare">
+                    <svg class="icon icon-compare">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                    </svg>
+                    <a href="#">Сравнить</a>
+                  </div>
+                  <div class="to-cart-line"></div>
+                  <div class="favorites">
+                    <svg class="icon icon-heart">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                    </svg>
+                    <a href="#">В избранное</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-01.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+              <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+              <div class="color-gamma">
+                <img src="img/gamma-colors.jpg" alt="alt">
+                <span>12 цветов</span>
+              </div>
+              <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+              <div class="prod-rating">
+                <div class="prod-rating__stars">
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                </div><!-- rating-stars -->
+
+                <div class="rating-count">
+                  <span class="rating-abs">3.0</span>
+                  <span class="rating-total">(23)</span>
+                </div>
+              </div><!-- prod-rating -->
+
+              <div class="prod-to-cart">
+                <a href="#" class="to-cart">
+                  <svg class="icon icon-cart_small">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                  </svg>
+                  <span>В корзину</span>
+                </a>
+                <div class="to-cart__links">
+                  <div class="compare">
+                    <svg class="icon icon-compare">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                    </svg>
+                    <a href="#">Сравнить</a>
+                  </div>
+                  <div class="to-cart-line"></div>
+                  <div class="favorites">
+                    <svg class="icon icon-heart">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                    </svg>
+                    <a href="#">В избранное</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item --> 
+
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-01.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+            <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+            <div class="color-gamma">
+              <img src="img/gamma-colors.jpg" alt="alt">
+              <span>12 цветов</span>
+            </div>
+            <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+            <div class="prod-rating">
+              <div class="prod-rating__stars">
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+              </div><!-- rating-stars -->
+
+              <div class="rating-count">
+                <span class="rating-abs">3.0</span>
+                <span class="rating-total">(23)</span>
+              </div>
+            </div><!-- prod-rating -->
+
+            <div class="prod-to-cart">
+              <a href="#" class="to-cart">
+                <svg class="icon icon-cart_small">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                </svg>
+                <span>В корзину</span>
+              </a>
+              <div class="to-cart__links">
+                <div class="compare">
+                  <svg class="icon icon-compare">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                  </svg>
+                  <a href="#">Сравнить</a>
+                </div>
+                <div class="to-cart-line"></div>
+                <div class="favorites">
+                  <svg class="icon icon-heart">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                  </svg>
+                  <a href="#">В избранное</a>
+                </div>
+              </div>
+            </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-02.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+            <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+            <div class="color-gamma">
+              <img src="img/gamma-colors.jpg" alt="alt">
+              <span>12 цветов</span>
+            </div>
+            <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+            <div class="prod-rating">
+              <div class="prod-rating__stars">
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gold">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+                <div class="rating-star rating-star--gray">
+                  <svg class="icon icon-rating-star">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                  </svg>
+                </div>
+              </div><!-- rating-stars -->
+
+              <div class="rating-count">
+                <span class="rating-abs">3.0</span>
+                <span class="rating-total">(23)</span>
+              </div>
+            </div><!-- prod-rating -->
+
+            <div class="prod-to-cart">
+              <a href="#" class="to-cart">
+                <svg class="icon icon-cart_small">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                </svg>
+                <span>В корзину</span>
+              </a>
+              <div class="to-cart__links">
+                <div class="compare">
+                  <svg class="icon icon-compare">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                  </svg>
+                  <a href="#">Сравнить</a>
+                </div>
+                <div class="to-cart-line"></div>
+                <div class="favorites">
+                  <svg class="icon icon-heart">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                  </svg>
+                  <a href="#">В избранное</a>
+                </div>
+              </div>
+            </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-03.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+              <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+              <div class="color-gamma">
+                <img src="img/gamma-colors.jpg" alt="alt">
+                <span>12 цветов</span>
+              </div>
+              <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+              <div class="prod-rating">
+                <div class="prod-rating__stars">
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                </div><!-- rating-stars -->
+
+                <div class="rating-count">
+                  <span class="rating-abs">3.0</span>
+                  <span class="rating-total">(23)</span>
+                </div>
+              </div><!-- prod-rating -->
+
+              <div class="prod-to-cart">
+                <a href="#" class="to-cart">
+                  <svg class="icon icon-cart_small">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                  </svg>
+                  <span>В корзину</span>
+                </a>
+                <div class="to-cart__links">
+                  <div class="compare">
+                    <svg class="icon icon-compare">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                    </svg>
+                    <a href="#">Сравнить</a>
+                  </div>
+                  <div class="to-cart-line"></div>
+                  <div class="favorites">
+                    <svg class="icon icon-heart">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                    </svg>
+                    <a href="#">В избранное</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->
+
+          <div class="product-items__item">
+            <div class="prod-top">
+              <div class="prod-img-wrap">
+                <img src="img/product-01.jpg" alt="alt">
+                <div class="prod-label">New</div>
+                <a href="#look-popup" class="quick-look">быстрый просмотр</a>
+              </div>
+              <div class="gamma">
+                <div class="gamma-preloader"></div>
+                <div class="gamma-siema">
+
+                  <a href="" class="gamma-item"><img src="img/gamma-01.jpg" alt="alt"></a>
+
+
+                  <a href="" class="gamma-item"><img src="img/gamma-02.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-03.jpg" alt="alt"></a>
+
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-04.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-05.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-06.jpg" alt="alt"></a>
+
+                  <a href="#" class="gamma-item"><img src="img/gamma-07.jpg" alt="alt"></a>
+
+                </div>
+                <div class="gamma-siema-nav">
+                  <div class="gamma-siema-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="gamma-siema-next">
+                    <svg class="icon icon-arrow-left">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- prod-top -->
+
+            <div class="prod-name">
+              <h5>Мокасины Las Espadrillas Negro <br>Fv5503-27</h5>
+              <div class="color-gamma">
+                <img src="img/gamma-colors.jpg" alt="alt">
+                <span>12 цветов</span>
+              </div>
+              <div class="prod-price">2 300 <span class="ruble">Р</span></div>
+              <div class="prod-rating">
+                <div class="prod-rating__stars">
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gold">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                  <div class="rating-star rating-star--gray">
+                    <svg class="icon icon-rating-star">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+                    </svg>
+                  </div>
+                </div><!-- rating-stars -->
+
+                <div class="rating-count">
+                  <span class="rating-abs">3.0</span>
+                  <span class="rating-total">(23)</span>
+                </div>
+              </div><!-- prod-rating -->
+
+              <div class="prod-to-cart">
+                <a href="#" class="to-cart">
+                  <svg class="icon icon-cart_small">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+                  </svg>
+                  <span>В корзину</span>
+                </a>
+                <div class="to-cart__links">
+                  <div class="compare">
+                    <svg class="icon icon-compare">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+                    </svg>
+                    <a href="#">Сравнить</a>
+                  </div>
+                  <div class="to-cart-line"></div>
+                  <div class="favorites">
+                    <svg class="icon icon-heart">
+                      <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+                    </svg>
+                    <a href="#">В избранное</a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- prod-name -->
+          </div><!-- product-items_item -->   
+        
+        </div><!-- product-items -->
+
+        <div class="product-content__bottom">
+          <div class="display-all">
+            <span>Показать все</span>
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+          </div>
+          <div class="product-content__pager">
+              <span class="pager-button left">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+              </span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>...</span>
+              <span>7</span>
+              <span class="pager-button left">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </span>
+            </div>
+        </div>
+
+    	</div><!-- product-content -->
+    </div><!--  product-catalog -->
+    
+    <div class="features">
+     <div class="features_left">
+       <h4>Большой выбор обуви</h4>
+       <p>Не следует, однако забывать, что постоянный количественный рост и сфера нашей активности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также рамки и место обучения кадров в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Равным образом консультация с широким активом представляет собой интересный эксперимент проверки новых предложений. С другой стороны начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия.</p>
+       <h4>Доставка с примеркой</h4>
+       <p>Задача организации, в особенности же реализация намеченных плановых заданий играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Таким образом реализация намеченных плановых заданий обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий.</p>
+       <h4>Оплата и возврат</h4>
+       <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Равным образом консультация с широким активом представляет собой интересный эксперимент проверки новых предложений. С другой стороны начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия.</p>
+     </div>
+     <div class="features_right">
+       <div class="delivery-wrap">
+        <img src="img/adidas-black-fashion-girl-Favim.jpg" alt="alt">
+        <img src="img/delivery-label.png" alt="alt" class="delivery-text">
+      </div>
+    </div>
+  </div>
+
+    <div class="options">
+      <div class="options-item delivery-item">
+        <svg class="icon icon-delivery">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#delivery"></use>
+        </svg>
+        <div class="options-item__right">
+          <div class="options-item__text">ДОСТАВКА
+            <span class="options-item__small">за 24 часа</span>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="options-item pars-item">
+        <svg class="icon icon-pars">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#pars"></use>
+        </svg>
+        <div class="options-item__right">
+          <div class="options-item__text">НЕСКОЛЬКО <br>ПАР
+            <span class="options-item__small">на примерку</span>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="options-item payment-item">
+        <svg class="icon icon-payment">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#payment"></use>
+        </svg>
+        <div class="options-item__right">
+          <div class="options-item__text">ОПЛАТА
+            <span class="options-item__small">ПОСЛЕ ПРИМЕРКИ</span>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="options-item warranty-item">
+        <svg class="icon icon-warranty">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#warranty"></use>
+        </svg>
+        <div class="options-item__right">
+          <div class="options-item__text">гарантия
+            <span class="options-item__small">обмен/возврат</span>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- options -->
+
+    <footer>
+      <div class="footer__inner">
+        <div class="footer__item">
+          <svg class="icon icon-logo">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#logo"></use>
+          </svg>
+          <div class="copyright">2017 © Оптово - розничный <br>
+            магазин. Тапки</div>
+        </div>
+        <div class="footer__item">
+          <ul class="footer-menu">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+
+          <ul class="footer-menu">
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Бренды</a></li>
+            <li><a href="#">Распродажа</a></li>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Популярное</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer-menu">
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Политика возврата</a></li>
+            <li><a href="#">Как оформить заказ</a></li>
+            <li><a href="#">Как выбрать размер</a></li>
+            <li><a href="#">Регистрация</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer-menu">
+            <li><a href="#">Мы в соцсетях</a></li>
+          </ul>
+          <ul class="socials-menu">
+            <li class="footer__socials">
+              <a href="#"><img src="img/vk.png" alt="alt"></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+
+          <a href="#" class="write-us">
+            <div class="round">
+              <svg class="icon icon-pen">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#pen"></use>
+              </svg>
+            </div>
+            <div class="header__middle-text">Написать нам</div>
+          </a>
+        </div>
+        <div class="footer__item">
+          <div class="subscribe">Подписаться нa рассылку</div>
+          <form action="#">
+            <input type="text" name="footer-email" placeholder="Ваш e-mail">
+            <button type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div id="look-popup" class="details-popup mfp-hide white-popup-block">
+      <div class="details-popup__left">
+        <h3>TWIN-SET Simona Barbieri натуральная ткань</h3>
+        <div class="details-popup__price">2 300 <span class="ruble">Р</span></div>
+        <div class="prod-rating">
+          <div class="prod-rating__stars">
+            <div class="rating-star rating-star--gold">
+              <svg class="icon icon-rating-star">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+              </svg>
+            </div>
+            <div class="rating-star rating-star--gold">
+              <svg class="icon icon-rating-star">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+              </svg>
+            </div>
+            <div class="rating-star rating-star--gold">
+              <svg class="icon icon-rating-star">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+              </svg>
+            </div>
+            <div class="rating-star rating-star--gold">
+              <svg class="icon icon-rating-star">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#rating-star"></use>
+              </svg>
+            </div>
+          </div><!-- rating-stars -->
+
+          <div class="rating-count">
+            <span class="rating-abs">5</span>
+            <span class="rating-total">(45)</span>
+          </div>
+        </div>
+        <a href="#" class="details-popup__detailer">Подробнее</a>
+
+        <div class="details-popup__sliders">
+          <div class="slick">
+            
+          </div>
+          
+          <div class="details-popup__sliders-bottom">
+            <div class="slick-nav">
+             
+            </div>
+          </div>
+
+          <div class="details-popup__cover"></div>
+        </div>
+      </div>
+
+      <div class="slider-storage">
+          <div class="product-gray">
+            <img src="img/keds/gray-orig01.jpg" alt="alt">
+          </div>
+          <div class="product-gray">
+            <img src="img/keds/gray-orig02.jpg" alt="alt">
+          </div>
+          <div class="product-gray">
+            <img src="img/keds/gray-orig03.jpg" alt="alt">
+          </div>
+          <div class="product-gray">
+            <img src="img/keds/gray-orig04.jpg" alt="alt">
+          </div>
+
+          <div class="product-green">
+            <img src="img/keds/green-orig01.jpg" alt="alt">
+          </div>
+          <div class="product-green">
+            <img src="img/keds/green-orig02.jpg" alt="alt">
+          </div>
+          <div class="product-green">
+            <img src="img/keds/green-orig03.jpg" alt="alt">
+          </div>
+          <div class="product-green">
+            <img src="img/keds/green-orig04.jpg" alt="alt">
+          </div>
+
+          <div class="product-blue">
+            <img src="img/keds/blue-orig01.jpg" alt="alt">
+          </div>
+          <div class="product-blue">
+            <img src="img/keds/blue-orig02.jpg" alt="alt">
+          </div>
+          <div class="product-blue">
+            <img src="img/keds/blue-orig03.jpg" alt="alt">
+          </div>
+          <div class="product-blue">
+            <img src="img/keds/blue-orig04.jpg" alt="alt">
+          </div>
+
+      </div><!-- slider-storage -->
+
+      <div class="slider-nav-storage">
+        
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav01.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav02.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav03.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav04.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav01.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav02.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav03.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-gray">
+            <div class="slick-nav__slide">
+              <img src="img/keds/gray-nav04.jpg" alt="alt">
+            </div>
+          </div>
+
+          <div class="product-green">
+            <div class="slick-nav__slide">
+              <img src="img/keds/green-nav01.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-green">
+            <div class="slick-nav__slide">
+              <img src="img/keds/green-nav02.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-green">
+           <div class="slick-nav__slide">
+              <img src="img/keds/green-nav03.jpg" alt="alt">
+           </div>
+          </div>
+          <div class="product-green">
+            <div class="slick-nav__slide">
+              <img src="img/keds/green-nav04.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-green">
+            <div class="slick-nav__slide">
+              <img src="img/keds/green-nav01.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-green">
+            <div class="slick-nav__slide">
+              <img src="img/keds/green-nav02.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-green">
+           <div class="slick-nav__slide">
+              <img src="img/keds/green-nav03.jpg" alt="alt">
+           </div>
+          </div>
+          <div class="product-green">
+            <div class="slick-nav__slide">
+              <img src="img/keds/green-nav04.jpg" alt="alt">
+            </div>
+          </div>
+
+          <div class="product-blue">
+            <div class="slick-nav__slide ">
+              <img src="img/keds/blue-nav01.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide">
+              <img src="img/keds/blue-nav02.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide">
+              <img src="img/keds/blue-nav03.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide">
+              <img src="img/keds/blue-nav04.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide ">
+              <img src="img/keds/blue-nav01.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide">
+              <img src="img/keds/blue-nav02.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide">
+              <img src="img/keds/blue-nav03.jpg" alt="alt">
+            </div>
+          </div>
+          <div class="product-blue">
+            <div class="slick-nav__slide">
+              <img src="img/keds/blue-nav04.jpg" alt="alt">
+            </div>
+          </div>
+      </div><!-- slider-nav-storage -->
+      
+      <div class="details-popup__right">
+        <h2>Выберите размер:</h2>
+        <div class="popup__sizes">
+          <div class="popup__size popup__size-dsable">35</div>
+          <div class="popup__size popup__size-disble">36</div>
+          <div class="popup__size popup__size-disable">37</div>
+          <div class="popup__size  popup__size-disable">38</div>
+          <div class="popup__size">39</div>
+          <div class="popup__size">40</div>
+          <div class="popup__size">41</div>
+          <div class="popup__size">42</div>
+          <div class="popup__size">43</div>
+          <div class="popup__size">44</div>
+          <div class="popup__size popup__size-disable">45</div>
+          <div class="popup__size popup__size-disable">46</div>
+        </div>
+        <a href="#" class="sizes-determine">Определить размер</a>
+
+        <div class="popup__colors">
+          <h2>Выберите цвет:</h2>
+          
+           <div class="popup__colors-wrap">
+              <a href="#" class="popup__color active" data-color="product-gray"><img src="img/keds/gray-nav04.jpg" alt="alt"></a>
+             <a href="#" class="popup__color" data-color="product-green"><img src="img/keds/green-nav04.jpg" alt="alt"></a>
+             <a href="#" class="popup__color" data-color="product-blue"><img src="img/keds/blue-nav04.jpg" alt="alt"></a>
+           </div>
+          
+        </div>
+
+        <div class="popup__to-cart">
+         <a href="#" class="to-cart">
+          <svg class="icon icon-cart_small">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#cart_small"></use>
+          </svg>
+          <span>В корзину</span>
+         </a>
+          <div class="popup-likes">
+            <a href="#">
+              <svg class="icon icon-compare">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#compare"></use>
+              </svg>
+            </a>
+
+            <a href="#">
+              <svg class="icon icon-heart">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#heart"></use>
+              </svg>
+            </a>
+          </div>
+      </div>
+      </div>
+    </div><!-- details-popup -->
+    
+    <div id="recall" class="callback-form mfp-hide white-popup-block">
+      <header>
+        <svg class="icon icon-logo">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#logo"></use>
+        </svg>
+
+        <h2>Наши специалисты свяжутся с вами в ближайшее время</h2>
+      </header>
+      <form action="#" class="call-form" method="GET">
+        <label class="my-form__label">
+          <input type="text" class="call-form__input" name="name" placeholder="Ваше имя" title="введите ваше имя"/>
+        </label>
+        <label class="my-form__label">
+          <input type="tel" class="call-form__input" name="phone" placeholder="Ваш телефон" title="введите ваш телефон"/>
+        </label>
+
+        <button type="submit" class="call-form__submit">Отправить</button>
+      </form>
+    </div>
+
+    <div id="whrite" class="callback-form mfp-hide white-popup-block">
+      <header>
+        <svg class="icon icon-logo">
+            <use xlink:href="img/icons-svg/symbol/sprite.svg#logo"></use>
+        </svg>
+
+        <h2>Вы можете задать вопрос или поделиться мнением</h2>
+      </header>
+      <form action="#" class="call-form" method="GET">
+        <div class="call-form__groupe">
+          <label class="my-form__label">
+            <input type="text" class="call-form__input" name="name" placeholder="Ваше имя" title="введите ваше имя"/>
+          </label>
+
+          <label class="my-form__label">
+            <input type="email" class="call-form__input" name="mail" placeholder="Ваша электронная почта" title="введите ваш e-mail"/>
+          </label>
+        </div>
+        <div class="call-form__groupe">
+          <div class="call-form__title">Текст сообщения</div>
+          <label class="my-form__label">
+            <textarea name="whrite-text" id="whriter" cols="30" rows="10"></textarea>
+          </label>
+        </div>
+
+        <button type="submit" class="call-form__submit">Отправить</button>
+      </form>
+    </div>
+
+    <script src="js/svg4everybody/svg4everybody.legacy.min.js" async onload="svg4everybody();"></script>
+    <script src="js/libs.min.js"></script>
+    
+    <script src="js/common.js"></script>
+</body>
+</html>
